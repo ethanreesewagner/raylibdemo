@@ -1,0 +1,1 @@
+gcc main.c -Os -framework IOKit -framework Cocoa -framework OpenGL $(pkg-config --libs --cflags raylib)
